@@ -327,7 +327,7 @@ function actualizar(contenido) {
                 element['año'] = contenido['año'];
                 element['localizacion'] = contenido['localizacion'];
                 element['reconocimientos'] = contenido['reconocimientos'];
-                element['genero'] = element['genero'];
+                element['genero'] = contenido['genero'];
             }
         })
         return escribirArchivo(JSON.stringify(contenidoactual));
@@ -370,8 +370,8 @@ function actualizarPelicula(contenido, id) {
                 element['nombre'] = contenido['nombre'];
                 element['presupuesto'] = contenido['presupuesto'];
                 element['genero'] = contenido['genero'];
-                element['plataforma'] = contenido['plataforma'];
-                element['online'] = contenido['online'];
+                element['director'] = contenido['director'];
+                element['año'] = contenido['año'];
             }
 
         })
