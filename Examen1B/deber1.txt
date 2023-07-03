@@ -1,0 +1,1 @@
+[{"nombre":"Warner Bros","año":1992,"localizacion":"Burbank","reconocimientos":true,"genero":"Comedia","id":1,"peliculas":[]}]

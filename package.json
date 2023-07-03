@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "inquirer": "^9.2.7",
+    "require": "^2.4.20"
+  }
+}
