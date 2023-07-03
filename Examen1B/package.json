@@ -2,7 +2,7 @@
   "name": "examen1b",
   "version": "1.0.0",
   "description": "",
-  "main": "deber 1.mjs",
+  "main": "Examen1B.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

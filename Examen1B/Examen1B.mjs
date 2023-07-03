@@ -268,7 +268,7 @@ function escribirArchivo(contenido) {
     const escribirArchivoPromesa = new Promise(
         (resolve, reject) => {
             fs.writeFile(
-                'deber1.txt',
+                'examen1B.txt',
                 contenido,
                 (error) => {
                     if (error) {
@@ -287,7 +287,7 @@ function escribirArchivo(contenido) {
 function listar() {
     const leerArchivoPromesa = new Promise(
         (resolve, reject) => {
-            fs.readFile('deber1.txt', 'utf-8',
+            fs.readFile('examen1B.txt', 'utf-8',
                 (error, contenido) => {
                     if (error) {
                         console.log('Error en la lectura del archivo');
