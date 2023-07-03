@@ -82,7 +82,7 @@ async function main() {
                         {
                             type: 'list',
                             name: 'menu',
-                            message: 'Seleccione una categoría: ',
+                            message: 'Seleccione una productora: ',
                             choices: data.map(a => a.id + " " + a.nombre),
                         }
                     ]);
@@ -101,7 +101,7 @@ async function main() {
                         {
                             type: 'list',
                             name: 'menu',
-                            message: 'Seleccione una categoría: ',
+                            message: 'Seleccione una productora: ',
                             choices: data.map(a => a.id + " " + a.nombre),
                         }
                     ]);
@@ -152,7 +152,7 @@ async function main() {
                         {
                             type: 'list',
                             name: 'menu',
-                            message: 'Seleccione una categoría: ',
+                            message: 'Seleccione una productora: ',
                             choices: data.map(a => a.id + " " + a.nombre),
                         }
                     ]);
