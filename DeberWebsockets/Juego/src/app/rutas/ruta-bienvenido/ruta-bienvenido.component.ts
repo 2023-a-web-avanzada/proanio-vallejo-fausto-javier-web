@@ -13,15 +13,15 @@ export class RutaBienvenidoComponent implements OnInit {
   nombre=""
 
   salas = [
-    {numero:1, color: '#20c868'},
-    {numero:2, color: '#1574cd'},
-    {numero:3, color: '#8943b0'},
-    {numero:4, color: '#ed51aa'},
-    {numero:5, color: '#f22631'},
-    {numero:6, color: '#fe9400'},
-    {numero:7, color: '#20c868'},
-    {numero:8, color: '#1574cd'},
-    {numero:9, color: '#8943b0'},
+    {numero:1, color: '#86d9c3'},
+    {numero:2, color: '#8bbfe5'},
+    {numero:3, color: '#86D9C3FF'},
+    {numero:4, color: '#8bbfe5'},
+    {numero:5, color: '#86D9C3FF'},
+    {numero:6, color: '#8bbfe5'},
+    {numero:7, color: '#86D9C3FF'},
+    {numero:8, color: '#8bbfe5'},
+    {numero:9, color: '#86D9C3FF'},
   ]
   constructor(private readonly router:Router,
               private readonly webSocketService:WebsocketsService) { }

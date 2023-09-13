@@ -1,0 +1,13 @@
+.button-card {
+  /* Estilo normal del botón */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Añadir una sombra al botón */
+  transition: box-shadow 0.3s ease; /* Agregar una transición suave a la sombra */
+
+  /* Tus otros estilos aquí */
+}
+
+.button-card:hover {
+  background-color: yellow;
+  /* Estilo cuando el cursor está encima del botón */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Cambiar la sombra al pasar el cursor */
+}

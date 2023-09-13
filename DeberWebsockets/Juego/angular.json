@@ -108,5 +108,7 @@
       }
     }
   },
-  "defaultProject": "Juego"
+  "cli": {
+    "analytics": "4ff077b5-5260-41eb-8120-9c3fab8c48fe"
+  }
 }

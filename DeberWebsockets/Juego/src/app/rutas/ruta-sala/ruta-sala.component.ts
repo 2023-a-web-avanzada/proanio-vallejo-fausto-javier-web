@@ -21,10 +21,10 @@ export class RutaSalaComponent implements OnInit {
   modalVives=false
   modalMueres= false
   colores =[
-    '#20c868',
-    '#1574cd',
-    '#8943b0',
-    '#ed51aa',
+    '#728a95',
+    '#86d9c3',
+    '#5ccea8',
+    '#a691d9',
     '#f22631',
     '#fe9400'
   ]

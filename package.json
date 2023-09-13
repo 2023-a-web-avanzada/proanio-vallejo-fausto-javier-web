@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "@angular/core": "^16.2.4",
+    "@nestjs/platform-socket.io": "^10.2.5",
+    "@nestjs/websockets": "^10.2.5",
     "inquirer": "^9.2.7",
-    "require": "^2.4.20"
+    "require": "^0.4.4",
+    "socket.io-client": "^4.7.2"
   }
 }
